@@ -28,7 +28,7 @@
     position: relative;
     overflow: hidden;
     height:20%;
-    background:black;
+    background:linear-gradient(to bottom, #FF8666, #FF4D4D);
 }
 .wave{
   position: absolute;
@@ -36,12 +36,13 @@
   top: auto;
   width: 200%; /* Double the width to accommodate two SVGs */
   height: 100%;
-  opacity:90%;
+  
 }
 
 .wave-svg-secondary {
   animation: moveWave 10s linear infinite; /* Adjust animation duration as needed */
   fill: url(#wave-secondary-gradient);
+  opacity:90%;
 }
 
 

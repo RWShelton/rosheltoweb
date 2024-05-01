@@ -1,25 +1,24 @@
 <script setup>
 import TopBar from './TopBar.vue';
 import Ocean from './Ocean.vue';
-defineProps({
-  title: {
-    type: String,
-    required: true
-  }
-})
 </script>
 
 <template>
     <div class="wrapper">
   
       <header>
-          <TopBar title="roshelto"/>
+          <TopBar title="Robert Shelton"/>
       </header>
       <main>
         <Ocean/>
-        <slot>
-            There's no content here. 
-        </slot>
+        <div class="contentContainer">
+          <div class="contentPanel">
+            <slot>
+              There's no content here. 
+            </slot>
+          </div> 
+        </div>
+        
       </main>
     <footer>
     </footer>
@@ -29,13 +28,22 @@ defineProps({
 <style scoped>
 header{
     min-height:10vh;
-    background:black;
-    color:white;
+    
 }
 main{
-    background:linear-gradient(to bottom, #001f3f 30%, black 100%)  ;
+    background:linear-gradient(to bottom, #001f3f, black);
     color:white;
     height:75vh;
+}
+.contentContainer{
+  padding:48px;
+}
+.contentPanel{
+  padding:24px;
+  border-radius:5px;
+  /*background-color:#ddeefd;*/
+  color:white;
+  opacity:90%;
 }
 footer{
     height:25vh;

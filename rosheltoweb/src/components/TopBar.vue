@@ -1,4 +1,5 @@
 <script setup>
+import {RouterLink} from 'vue-router'
 defineProps({
   title: {
     type: String,
@@ -13,13 +14,9 @@ defineProps({
     </div>
     <div class="mainNav">
         <nav>
-          <ul>
-            <li class="mainNavItem">
-              <a >About Me</a> 
-            </li>
-            <li class="mainNavItem">
-              <a href="Resume">Resume</a>
-            </li>
+          <ul class="mainNavList">
+              <router-link :to="{name: 'home'}" class="mainNavItem"><li>About Me</li></router-link>
+              <router-link :to="{name: 'resume'}" class="mainNavItem"><li>Resume</li></router-link>
           </ul>
         </nav>
     </div>
@@ -27,19 +24,42 @@ defineProps({
 </template>
 
 <style scoped>
-
+.topBarContainer{
+  background:linear-gradient(to bottom, #FFD699, #FF8666);
+}
 .titleContainer{
+  padding-top:12px;
+  padding-left:40px;
   height:20%;
+  color:#002e5f;
+}
+.mainNavList{
+  margin-top:0;
+  margin-bottom:0;
+  display:inline-block;
 }
 .mainNav{
-border-top:2px solid grey;
-border-bottom:2px solid grey;
-width:100%;
-height:40%;
+  width:100%;
+  height:40%;       
 }
 
-.mainNavItem{
-    display:inline-block;
-    padding:12px;
-  }
+li{
+  display:inline-block;
+  padding:12px;
+  height:100%;
+  transition:1s;
+  border-radius:5px;
+  color:#002e5f;
+  margin:12px;
+}
+
+li:hover{
+  background-color:#FF4D4D;
+  transition:1s;
+  color:#002e5f;
+}
+.router-link-active > *{
+  background-color:#002e5f;
+  color:white;
+}
 </style>
