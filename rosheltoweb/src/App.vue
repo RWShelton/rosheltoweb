@@ -1,7 +1,9 @@
 <script setup>
   import {RouterView, RouterLink} from 'vue-router'
   import Frame from '@/components/Frame.vue'
+
 </script>
+
 
 <template>
   <Frame>

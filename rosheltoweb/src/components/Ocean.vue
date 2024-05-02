@@ -27,7 +27,7 @@
 .ocean {
     position: relative;
     overflow: hidden;
-    height:20%;
+    height:100%;
     background:linear-gradient(to bottom, #FF8666, #FF4D4D);
 }
 .wave{

@@ -5,4 +5,9 @@ import App from './App.vue'
 
 import router from '@/plugins/router.js'
 
-createApp(App).use(router).mount('#app')
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+createApp(App)
+    .component('font-awesome-icon', FontAwesomeIcon)
+    .use(router)
+    .mount('#app')
