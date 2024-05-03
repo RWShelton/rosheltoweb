@@ -20,7 +20,6 @@ import Ocean from './Ocean.vue';
             </slot>
           </div> 
         </div>
-        
       </main>
     <footer>
     </footer>
@@ -35,6 +34,7 @@ main{
     background:linear-gradient(to bottom, #001f3f , black);
     color:white;
 }
+
 .oceanContainer{
   height:120px;
 }

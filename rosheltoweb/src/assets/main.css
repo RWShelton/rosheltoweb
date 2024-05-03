@@ -5,4 +5,12 @@ body{
     background-color:#FFD699;
 }
 
+main a{
+    color:aqua !important;
+    transition:.3s;
+}
+main a:hover{
+    color:white !important;
+    transition:.3s;
+}
 

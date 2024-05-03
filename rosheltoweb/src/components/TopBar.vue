@@ -20,7 +20,7 @@ defineProps({
       <div class="socialsContainer">
         <div class="socialIcon"><a href="https://www.linkedin.com/in/robert-shelton-4b5836a6/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']"/></a></div>
         <div class="socialIcon"><a href="https://github.com/RWShelton" target="_blank"><font-awesome-icon :icon="['fab', 'github']"/></a></div>
-        <div class="socialIcon"><a href=""><font-awesome-icon :icon="['fas', 'envelope']"/></a></div>
+        <div class="socialIcon"><a href="mailto:robertshelton.dev@gmail.com"><font-awesome-icon :icon="['fas', 'envelope']"/></a></div>
       </div>
     </div>
     
