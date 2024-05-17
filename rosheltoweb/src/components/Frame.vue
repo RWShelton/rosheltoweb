@@ -40,7 +40,7 @@ main{
 }
 .contentContainer{
   padding:48px;
-  height:80%;
+  height:80vh;
 }
 .contentPanel{
   padding:24px;
