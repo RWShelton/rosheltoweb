@@ -27,12 +27,16 @@ import Ocean from './Ocean.vue';
 </template>
 
 <style scoped>
+.wrapper{
+  height:100%;
+}
 header{
     min-height:10vh;
 }
 main{
     background:linear-gradient(to bottom, #001f3f , black);
     color:white;
+    height:100%;
 }
 
 .oceanContainer{
@@ -40,7 +44,7 @@ main{
 }
 .contentContainer{
   padding:48px;
-  height:80vh;
+  height:80%;
 }
 .contentPanel{
   padding:24px;

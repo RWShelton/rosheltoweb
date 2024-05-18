@@ -1,8 +1,9 @@
-body{
+html, body{
     margin:0 !important;
     padding: 0 !important;
     font-family: "Open Sans", sans-serif;
-    background-color:#FFD699;
+    height:100%;
+    width:100%;
 }
 
 main a{
