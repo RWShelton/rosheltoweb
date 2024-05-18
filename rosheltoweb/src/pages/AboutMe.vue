@@ -24,6 +24,9 @@
             display:flex;
             justify-content: center;
         }
+        .aboutMeBlurb{
+            padding-left:0px !important;
+        }
     }
     .headshot{
         border-radius: 50%;
