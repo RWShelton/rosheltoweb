@@ -7,10 +7,10 @@
             </h2>
             <div>
                 <p>
-                    <i>Programming Languages:</i> JavaScript, HTML, CSS, Java, C#, SQL
+                    <i>Programming Languages:</i> Python, Java, JavaScript, SQL, HTML, CSS, C#
                 </p>
                 <p> 
-                    <i>Technologies: </i> React.js, Vue.js, Node.js, Liferay
+                    <i>Technologies: </i> React.js, Vue.js, Node.js, Liferay, Helm/Kubernetes, PostgreSQL, Flyway, REST APIs
                 </p>
                 <p> 
                     <i>Other skills: </i> Agile Development, Jira and ticket systems
@@ -27,7 +27,17 @@
             </h2>
             <div>
                 <div>
-                    <h3>Software Developer (November 2019 - May 2024)</h3>
+                    <h3>Applications Engineer 3 (August 2024 - Present)</h3>
+                    <p><i>National Center for Ecological Analysis and Synthesis</i></p>
+                    <ul>
+                        <li>Build and maintain VegBank API, a Python Flask application that allows scientists to access and upload vegetation data. </li>
+                        <li>Manage Helm charts to make code easily deployable via Kubernetes. </li>
+                        <li>Deploy VegBank PostgreSQL database to Kubernetes and maintain via Flyway.</li>
+                        <li>Collaborate with Scientists to understand their data needs and provide technical solutions. </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Software Engineer (November 2019 - May 2024)</h3>
                     <p><i>Stanford University IT Student and HR Systems Portal Team</i></p>
                     <ul>
                         <li>Build full stack web applications in JavaScript, HTML, CSS, and Java that fetch and display data from REST APIs, ensuring a responsive and user-friendly interface.</li>
@@ -46,14 +56,6 @@
                         <li>Built a new REST API in C# to create accounts in Active Directory via requests from PeopleSoft. Partnered with PeopleSoft administrators to redesign the University’s account management system. [<a href="https://github.com/puget-sound/MSActor" target="_blank">Available Here</a>]</li>
                         <li>Designed and implemented several apps for different campus groups to streamline business practices, including a photo migration pipeline and a scheduler for recurring campus events. </li>
                         <li>Organized team documentation and resources as part of new software acquired by Project Management Office. </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Amazon Web Services Intern (Summer 2016)</h3>
-                    <p><i>Amazon Web Services Infrastructure Supply Chain Automation</i></p>
-                    <ul>
-                        <li>Maintained and enhanced Infrastructure Supply Chain software, designed to ensure AWS datacenters have equipment necessary to meet ever growing customer demand.</li>
-                        <li>Worked within Amazon’s robust CI/CD pipeline to create reliable code within a larger ecosystem. </li>
                     </ul>
                 </div>
             </div>
