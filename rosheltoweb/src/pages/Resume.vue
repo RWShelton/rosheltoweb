@@ -27,7 +27,7 @@
             </h2>
             <div>
                 <div>
-                    <h3>Applications Engineer 3 (August 2024 - Present)</h3>
+                    <h3>Applications Engineer 3 (August 2024 - July 2026)</h3>
                     <p><i>National Center for Ecological Analysis and Synthesis</i></p>
                     <ul>
                         <li>Build and maintain VegBank API, a Python Flask application that allows scientists to access and upload vegetation data. </li>
